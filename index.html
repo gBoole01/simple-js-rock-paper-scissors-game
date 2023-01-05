@@ -13,23 +13,23 @@
     <h1 class="game-title">Rock Paper Scissors</h1>
     <p class="game-subtitle">Before you pick one, just know that i'm really good at this game!</p>
 
+    <p class="game-counter">Total Games: <span data-game-counter>0</span></p>
+
     <div class="selections">
-      <button class="selection">🪨</button>
-      <button class="selection">📜</button>
-      <button class="selection">✂️</button>
+      <button class="selection" data-selection="rock">🪨</button>
+      <button class="selection" data-selection="paper">📜</button>
+      <button class="selection" data-selection="scissors">✂️</button>
     </div>
 
     <div class="results">
       <div>
         You
-        <span class="results-score">0</span>
+        <span class="results-score" data-your-score>0</span>
       </div>
-      <div>
+      <div data-final-column>
         Computer
-        <span class="results-score">0</span>
+        <span class="results-score" data-computer-score>0</span>
       </div>
-      <div class="result-selection winner">🪨</div>
-      <div class="result-selection">✂️</div>
     </div>
   </div>
 

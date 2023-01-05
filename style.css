@@ -13,8 +13,16 @@ body {
 }
 
 .game-title,
-.game-subtitle {
+.game-subtitle,
+.game-counter {
   text-align: center;
+}
+
+.game-counter {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  color: hsl(105, 77%, 10%);
 }
 
 .selections {
